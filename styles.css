@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;;
+}
+.navLink{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    z-index: 1100;
+    position: fixed;
+}
+
+#navBar{
+     height: 80px;
+     width: 100%;
+     background: #005f61;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(0, 95, 97, 1);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(0, 95, 97, 0.3);
+}
+
+#navLogo{
+    margin-left: 32px;
+}
+
+#navLinks{
+    margin-right: 32px;
+    display: flex;
+}
+
+.navLink{
+    margin-left: 16px;
+}
+
+header{
+    display: flex;
+    color: white;
+}
+#headerImg{
+    background-image: url(./assets/plantation1536x800.jpg);
+}
+
+#headerContainer{
+    height: 800px;
+    width: 100vw;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+}
+#headerImage{
+    width: 50%;
+}
+#titleContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00c65e;
+}
+h1{
+    font-size: 3.0rem;
+    margin-bottom: 24px;
+}
+
+#firstSection{
+    height: 800px;
+    width: 100%;
+    background-image: url(./assets/section.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+#cardSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
