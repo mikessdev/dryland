@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./components/button.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="components/card.css">
+    <link rel="stylesheet" href="components/cardTestimony.css">
     <link rel="icon" type="image/x-icon" href="/assets/logo_179x191.png">
     
 
@@ -19,51 +20,68 @@
     <nav id="navBar">
         <img id="navLogo" src="assets/logo_179x191.png" alt="" style="width: 60px; height: 70px;">
         <div id="navLinks">
-            <a class="navLink" href="#">Contato</a>
-            <a class="navLink" href="#">Sobre</a>
-            <a class="navLink" href="#">Link</a>
+            <a class="navLink" href="#headerContainer">Contato</a>
+            <a class="navLink" href="#secondSection">Sobre</a>
         </div>
     </nav>
     <header>
         <div id="headerContainer">
             <div id="titleContainer">
-                <div>
-                    <h1>
-                        Lorem ipsum dolor
+                <div class="textContainer">
+                    <h1 class="sloga">
+                        A agricultura do futuro está aqui, juntos vamos cultivá-la.
                     </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Consectetur iste ab a
-                        unde, totam illum, eligendi quo cumque.
-                    </p>
-                    <button>Contato</button>
+                    <a id="button" href="https://www.instagram.com/dryland_21/" target="_blank">Contato</a>
                 </div>
             </div>
             <div id="headerImg" style="width: 50%; height: 800xp;">
 
             </div>
-            <!-- <img src="assets/image3.jpg" alt="" style="width: 50%; height: 800xp;">  -->
         </div>
     </header>
     <section id="firstSection">
-        <div id="cardSection" style="width: 50%; height: 800px;">
+        <div id="cardSection" style="width: 50%; height: 100%;">
             <div class="card">
-                <p>
-                    Lorem ipsum dolor sit, amet
-                    consectetur adipisicing elit.
-                </p>
+                <div class="textContainer">
+                    <h2 class="sloga">
+                        Cultivando o futuro com tecnologia.
+                    </h2>
+                    <p>
+                        Nossa startup, <span>Dryland</span>, pretende revolucionar a agricultura com a combinação da tecnologia e robótica. Nós acreditamos que a agricultura do futuro deve ser mais eficiente, sustentável e rentável, e estamos trabalhando duro para tornar isso uma realidade.
+                        .
+                    </p>
+
+                </div>
             </div>
         </div>
         <div>
 
         </div>
     </section>
+    <section id="secondSection">
+        <div id="oneSide">
+            <div>      
+                <p id="oneSide-title">Transformando campos em campos de oportunidades</p>
+                <p id="text2">Nós acreditamos que a tecnologia e a robótica podem transformar a agricultura, e estamos ansiosos para continuar trabalhando em novas inovações e soluções. Juntos, podemos cultivar um futuro melhor para todos.</p>
+            </div>
+        </div>
+        <div id="twoSide">
+            <div class="cardTestimony">
+                <div>
+                    <img src="assets/eduardo.png" alt="Ceo imagem">
+                    <p id="text">Acredito que a tecnologia pode desempenhar um papel importante na agricultura, e estou ansioso para trabalhar com agricultores locais para desenvolver soluções que atendam às suas necessidades. Estou ansioso para contribuir para o desenvolvimento do setor agrícola de Lucas do Rio Verde, e ajudar os agricultores a alcançarem seus objetivos econômicos e sustentáveis.</p>
+                    <p id="nome">Eduardo Henrique</p>
+                    <p id="cargo">Ceo</p>
+                </div>
+             </div>
+
+        </div>
+    </section>
     <footer>
         <div id="footerContainer">
-            <p>
-                Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit.
-            </p>
+            
+            <img src="assets/logo_179x191.png" alt="dryland logo">
+            <p id="footer-text-logo">Dryland</p>
         </div>
     </footer>
 </body>

@@ -5,32 +5,33 @@
     margin: 0px;
     font-family: 'Noto Sans', sans-serif;;
 }
+
+/* Navbar */
 .navLink{
     text-decoration: none;
-    color: white;
+    color: #F4F6FB;
 }
 
 nav{
     z-index: 1100;
     position: fixed;
+    
+    
+    height: 100px;
+    width: 100%;
+    background: #005f61;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #005f61;
+    box-shadow: 4px 4px 032px 0px rgba(50, 50, 53, 0.75);
+    -webkit-box-shadow: 4px 4px 32px 0px rgba(50, 50, 53, 0.75);
+    -moz-box-shadow: 4px 4px 32px 0px rgba(50, 50, 53, 0.75);
+    
 }
 
-#navBar{
-     height: 80px;
-     width: 100%;
-     background: #005f61;
-     display: flex;
-     align-items: center;
-     justify-content: center;
 
-     /* From https://css.glass */
-/* From https://css.glass */
-background: rgba(0, 95, 97, 1);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(0, 95, 97, 0.3);
-}
 
 #navLogo{
     margin-left: 32px;
@@ -39,22 +40,25 @@ border: 1px solid rgba(0, 95, 97, 0.3);
 #navLinks{
     margin-right: 32px;
     display: flex;
+    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .navLink{
     margin-left: 16px;
 }
 
+/* Header */
 header{
     display: flex;
-    color: white;
+    color: #F4F6FB;
 }
 #headerImg{
-    background-image: url(./assets/plantation1536x800.jpg);
+    background-image: url(./assets/plantation1920x1280.jpg);
 }
 
 #headerContainer{
-    height: 800px;
+    height: 950px;
     width: 100vw;
     /* max-width: 1200px; */
     margin: 0 auto;
@@ -71,13 +75,28 @@ header{
     text-align: center;
     background-color: #00c65e;
 }
-h1{
+.sloga{
     font-size: 3.0rem;
-    margin-bottom: 24px;
+    margin-bottom: 4.0rem;
+    font-weight: 800;
+    text-align: left;
 }
 
+span {
+    color: #00c65e;
+}
+
+.textContainer { 
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* firstSection */
 #firstSection{
-    height: 800px;
+    height: 950px;
     width: 100%;
     background-image: url(./assets/section.jpg);
     display: flex;
@@ -88,4 +107,63 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* secondSection */
+#secondSection{
+    height: 800px;
+    width: 100%;
+    background-color: #F4F6FB;
+    display: flex;
+}
+
+#oneSide{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#oneSide-title{
+    color: #00c65e;
+    font-size: 3.0rem;
+    margin-bottom: 4.0rem;
+    font-weight: 800;
+    text-align: left;
+}
+#oneSide #text2{
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #777777;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#oneSide div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+#twoSide{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* footer */
+footer{
+    display: flex;
+}
+#footerContainer{
+    margin: 0 auto;
+}
+#footer-text-logo{
+    color: #F4F6FB;
+    font-size: 3.0rem;
+    margin-bottom: 4.0rem;
+    font-weight: 800;
+    text-align: left;
 }
